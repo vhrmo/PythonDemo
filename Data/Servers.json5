@@ -1,0 +1,70 @@
+{
+    Servers: [
+        {cluster: "AppGuard",  environment:"SIT",   site: "Single",  tier: "Web",  group: "Default",    name: "n5dvwb1002", ip: "10.77.17.238", comment: ""},
+        {cluster: "AppGuard",  environment:"SIT",   site: "Single",  tier: "Web",  group: "Default",    name: "n5dvwb1003", ip: "10.77.17.239", comment: ""},
+        {cluster: "AppGuard",  environment:"SIT",   site: "Single",  tier: "App",  group: "Default",    name: "r5dvap1000", ip: "10.77.17.240", comment: ""},
+        {cluster: "AppGuard",  environment:"SIT",   site: "Single",  tier: "App",  group: "Default",    name: "r5dvap1001", ip: "10.77.17.242", comment: ""},
+
+        {cluster: "AppGuard",  environment:"UAT",   site: "Single",  tier: "Web",  group: "Default",    name: "n4cvwb1010", ip: "10.74.68.130", comment: ""},
+        {cluster: "AppGuard",  environment:"UAT",   site: "Single",  tier: "Web",  group: "Default",    name: "n4cvwb1011", ip: "10.74.68.131", comment: ""},
+        {cluster: "AppGuard",  environment:"UAT",   site: "Single",  tier: "App",  group: "Default",    name: "r4cvap1000", ip: "10.68.6.164",  comment: ""},
+        {cluster: "AppGuard",  environment:"UAT",   site: "Single",  tier: "App",  group: "Default",    name: "r4cvap1001", ip: "10.68.6.166",  comment: ""},
+
+        { cluster: "MISC",     environment: "SIT",  site: "Single",  tier: "App",  group: "Default",    name: "n5dvap985",  ip: "10.77.17.148", comment: ""},
+        { cluster: "MISC",     environment: "SIT",  site: "Single",  tier: "Web",  group: "Default",    name: "n5dvwb994",  ip: "10.77.17.147", comment: ""},
+
+        { cluster: "MISC",     environment: "UAT",  site: "Single",  tier: "App",  group: "Default",    name: "n4cvap1005", ip: "10.68.6.125",  comment: ""},
+        { cluster: "MISC",     environment: "UAT",  site: "Single",  tier: "App",  group: "Default",    name: "n4cvap1006", ip: "10.68.6.126",  comment: ""},
+        { cluster: "MISC",     environment: "UAT",  site: "Single",  tier: "App",  group: "Default",    name: "n5cvap1001", ip: "10.77.5.251",  comment: ""},
+        { cluster: "MISC",     environment: "UAT",  site: "Single",  tier: "App",  group: "Default",    name: "n5cvap1002", ip: "10.77.5.252",  comment: ""},
+        { cluster: "MISC",     environment: "UAT",  site: "Single",  tier: "Web",  group: "Default",    name: "n4cvwb1006", ip: "10.74.74.40",  comment: ""},
+        { cluster: "MISC",     environment: "UAT",  site: "Single",  tier: "Web",  group: "Default",    name: "n4cvwb1007", ip: "10.74.74.42",  comment: ""},
+        { cluster: "MISC",     environment: "UAT",  site: "Single",  tier: "Web",  group: "Default",    name: "n5cvwb1002", ip: "10.72.74.40",  comment: ""},
+        { cluster: "MISC",     environment: "UAT",  site: "Single",  tier: "Web",  group: "Default",    name: "n5cvwb1003", ip: "10.72.74.42",  comment: ""},
+
+        { cluster: "MOP",      environment: "SIT",  site: "Single",  tier: "App",  group: "Default",    name: "n5dvap989",  ip: "10.77.17.110", comment: ""},
+        { cluster: "MOP",      environment: "SIT",  site: "Single",  tier: "App",  group: "Default",    name: "r5dvap1009", ip: "10.77.16.12",  comment: ""},
+        { cluster: "MOP",      environment: "SIT",  site: "Single",  tier: "Web",  group: "Default",    name: "n5dvwb1004", ip: "10.77.18.112", comment: ""},
+        { cluster: "MOP",      environment: "SIT",  site: "Single",  tier: "Web",  group: "Default",    name: "n5dvwb1005", ip: "10.77.18.113", comment: "Not used, apache installed."},
+
+        { cluster: "MOP",      environment: "UAT",  site: "Primary",  tier: "App", group: "Default",    name: "r4cvap1030", ip: "10.68.4.242",  comment: ""},
+        { cluster: "MOP",      environment: "UAT",  site: "Primary",  tier: "App", group: "Default",    name: "r4cvap1051", ip: "10.68.7.52",   comment: ""},
+        { cluster: "MOP",      environment: "UAT",  site: "DR",       tier: "App", group: "Default",    name: "r5cvap1014", ip: "10.77.4.173",  comment: ""},
+        { cluster: "MOP",      environment: "UAT",  site: "DR",       tier: "App", group: "Default",    name: "r5cvap1033", ip: "10.77.5.49",   comment: ""},
+        { cluster: "MOP",      environment: "UAT",  site: "Primary",  tier: "Web", group: "Internal",   name: "r4cvwb1026", ip: "10.68.7.53",   comment: ""},
+        { cluster: "MOP",      environment: "UAT",  site: "Primary",  tier: "Web", group: "External",   name: "r4cvwb1011", ip: "10.74.68.181", comment: ""},
+        { cluster: "MOP",      environment: "UAT",  site: "DR",       tier: "Web", group: "Internal",   name: "r5cvwb1019", ip: "10.77.5.50",   comment: ""},
+        { cluster: "MOP",      environment: "UAT",  site: "DR",       tier: "Web", group: "External",   name: "r5cvwb1010", ip: "10.72.68.150", comment: ""},
+
+        { cluster: "WSV",      environment: "DEV",  site: "Single",  tier: "App",  group: "Group1",     name: "n5dvap996",  ip: "10.77.17.103", comment: "online-dev.firstdata.de"},
+        { cluster: "WSV",      environment: "DEV",  site: "Single",  tier: "App",  group: "Group2",     name: "n5dvap988",  ip: "10.77.17.133", comment: "online-dev.1dc.com"},
+        { cluster: "WSV",      environment: "DEV",  site: "Single",  tier: "Web",  group: "Default",    name: "n5dvwb996",  ip: "10.77.17.112", comment: "Unused, apache to be installed"},
+
+        { cluster: "WSV",      environment: "SIT",  site: "Single",  tier: "App",  group: "Default",    name: "n5tvap998",  ip: "10.77.17.104", comment: "online-i.1dc.com"},
+        { cluster: "WSV",      environment: "SIT",  site: "Single",  tier: "Web",  group: "Default",    name: "n5dvwb995",  ip: "10.77.17.113", comment: ""},
+
+        { cluster: "WSV",      environment: "UAT",  site: "Single",  tier: "App",  group: "JBoss",      name: "r5cvap1003", ip: "10.77.5.150",  comment: ""},
+        { cluster: "WSV",      environment: "UAT",  site: "Single",  tier: "App",  group: "JBoss",      name: "r5cvap1004", ip: "10.77.5.151",  comment: "!New UAT server, once the 1003 configuration is finalized, we need to copy in the config to this server."},
+        { cluster: "WSV",      environment: "UAT",  site: "Single",  tier: "App",  group: "SpringBoot", name: "r5cvap1005", ip: "10.77.5.152",  comment: ""},
+        { cluster: "WSV",      environment: "UAT",  site: "Single",  tier: "App",  group: "SpringBoot", name: "r5cvap1006", ip: "10.77.5.153",  comment: ""},
+        { cluster: "WSV",      environment: "UAT",  site: "Single",  tier: "Web",  group: "Internal",   name: "n5cvwb993",  ip: "10.77.5.155",  comment: "Needs to be migrated to RedHat! Aliased as  r5cvwb1006."},
+        { cluster: "WSV",      environment: "UAT",  site: "Single",  tier: "Web",  group: "Internal",   name: "r5cvwb1005", ip: "10.77.5.154",  comment: "n5cvwb994 is alias for r5cvwb1005"},
+        { cluster: "WSV",      environment: "UAT",  site: "Single",  tier: "Web",  group: "External",   name: "n5cvwb995",  ip: "10.72.68.95",  comment: "Needs to be migrated to RedHat! Aliased as r5cvwb1004."},
+        { cluster: "WSV",      environment: "UAT",  site: "Single",  tier: "Web",  group: "External",   name: "r5cvwb1003", ip: "10.72.68.94",  comment: "n5cvwb996 is alias for r5cvwb1003?"},
+
+        { cluster: "Telecash", environment: "DEV",  site: "Single",  tier: "App",  group: "MText",      name: "n5dvap994",  ip: "10.77.17.105", comment: "MText server"},
+        { cluster: "Telecash", environment: "DEV",  site: "Single",  tier: "Data", group: "DB2",        name: "n5dvwb997",  ip: "10.77.17.111", comment: "Kufo DB2 database"},
+        { cluster: "Telecash", environment: "DEV",  site: "Single",  tier: "App",  group: "RabbitMQ",   name: "r4tvap1010", ip: "10.68.5.35",   comment: "RabbitMQ server. Used for SIT and UAT"},
+        { cluster: "Telecash", environment: "DEV",  site: "Single",  tier: "App",  group: "RabbitMQ",   name: "r4tvap1011", ip: "10.68.5.36",   comment: "RabbitMQ server. Used for SIT and UAT"},
+        { cluster: "Telecash", environment: "DEV",  site: "Single",  tier: "App",  group: "Default",    name: "n5dvap982",  ip: "10.77.17.171", comment: ""},
+        { cluster: "Telecash", environment: "DEV",  site: "Single",  tier: "Web",  group: "Default",    name: "n5dvwb993",  ip: "10.77.17.170", comment: ""},
+
+        { cluster: "Telecash", environment: "UAT",  site: "Single",  tier: "App",  group: "MText",      name: "n5qvap994",  ip: "10.77.5.227",  comment: "MText server"},
+        { cluster: "Telecash", environment: "UAT",  site: "Single",  tier: "App",  group: "MText",      name: "n5qvap994",  ip: "10.77.5.227",  comment: "MText server"},
+        { cluster: "Telecash", environment: "UAT",  site: "Single",  tier: "Data", group: "DB2",        name: "n5qvdb999",  ip: "10.77.13.98",  comment: "Kufo DB2 database"},
+        { cluster: "Telecash", environment: "UAT",  site: "Single",  tier: "App",  group: "RabbitMQ",   name: "r4cvap1007", ip: "10.68.4.107",  comment: "Is it used?! Unclear…."},
+        { cluster: "Telecash", environment: "UAT",  site: "Single",  tier: "App",  group: "Default",    name: "n4qvap997",  ip: "10.68.6.93",   comment: ""},
+        { cluster: "Telecash", environment: "UAT",  site: "Single",  tier: "Web",  group: "Default",    name: "n4qvwb997",  ip: "10.74.68.110", comment: ""},
+
+    ]
+}
