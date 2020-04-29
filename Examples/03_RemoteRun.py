@@ -11,7 +11,7 @@ try:
     ssh.connect(server_name, username=Secrets.user_name, key_filename=Secrets.private_key_file)
 
     # check for the locked account
-    ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command("uname")
+    ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command("uname -a;lsb_release -a;cat /etc/issue.net; cat /etc/*release")
     if "expired" in ssh_stderr.read():
         print server_name, ", Password change required!!!!!!!!!!!!!!!!!!!"
     else:
